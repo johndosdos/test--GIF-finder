@@ -1,2 +1,3 @@
 # test--GIF-finder
-testing
+
+testing async/await and fetch using GIPHY
