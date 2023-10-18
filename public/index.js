@@ -3,17 +3,17 @@ function initInput() {
   const searchBar = document.getElementById("searchBar");
 
   searchBar.addEventListener("click", function (e) {
-    const searchQuery = searchInput.value;
-
     if (e.target.id === "searchBtn") {
+      const searchQuery = searchInput.value;
+
       requestGIF(searchQuery);
       console.log(searchQuery);
     }
   });
   searchBar.addEventListener("keypress", function (e) {
-    const searchQuery = searchInput.value;
-
     if (e.key === "Enter") {
+      const searchQuery = searchInput.value;
+
       requestGIF(searchQuery);
       console.log(searchQuery);
     }
