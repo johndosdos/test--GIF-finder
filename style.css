@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  height: 100svh;
+  width: 100svw;
+}
+
+div#search-bar {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+div#searchResults {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
